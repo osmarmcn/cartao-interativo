@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="box-one">1</div>
+            <div class="box-two">2</div>
+        </div>
+
+
+        <!--cartão-->
+        <div class="card-front">
+            <div class="image">
+                <img src="#" alt="">
+                <img src="#" alt="">
+            </div>
+            <div class="card-number-box">
+                <div class="number-box">
+                    0000 0000 0000 0000
+                </div>
+                
+            </div>
+
+            <div class="card-flexBox">
+
+                <div class="card-holder">
+                    <label>Holder</label>
+                    <div class="name-vl">NOAH JACOB</div>
+                </div>
+                <div class="exp">
+                    <label>valid-thru</label>
+                    <div class="exp-date">
+                        <div class="expiration-m">00/</div>
+                        <div class="expiration-y">00</div>
+                    </div>
+                   
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="card-verse">
+            <img src="" alt="" class="map-img">
+            <div class="bar">
+                1
+            </div>
+            <div class="card-cvv">
+                
+                <img src="midia/pattern.png" alt="" class="img">
+
+                <div class="cvv-vl">000</div>
+            </div>
+            <div class="information">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, placeat harum mollitia ipsum  </p>
+            </div>
+        </div>
+
+        <!--formulário-->
+
+        <div class="form" id="credit-card">
+            <div class="inputBox">
+                <span>card number</span>
+                <input type="" maxlength="19" name="card-number" id="card-number" class="card-number-input" placeholder="ex: 1234 4321 2134 3214" required>
+                
+
+            </div>
+            <div id="res-number"></div>
+            <div class="inputBox">
+                <span>card holder</span>
+                <input type=" text" name="name-text" id="name-text" class="card-holder-input" placeholder="ex:João Marcos" required>
+                
+            </div>
+            <div id="res-name"></div>
+
+            <div class="flexBox">
+                <div class="inputBox">
+                    <span>EXP. DATE</span>
+                    <select name="" id="" class="moth-input">
+                        <option value="moth" selected disabled>Mês</option>
+                        <option value="01" >01</option>
+                        <option value="02" >02</option>
+                        <option value="03" >03</option>
+                        <option value="04" >04</option>
+                        <option value="05" >05</option>
+                        <option value="06" >06</option>
+                        <option value="07" >07</option>
+                        <option value="08" >08</option>
+                        <option value="09" >09</option>
+                        <option value="10" >10</option>
+                        <option value="11" >11</option>
+                        <option value="12" >12</option>
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <span>(MM/YY)</span>
+                    <select name="" id="" class="year-input">
+                        <option value="year" selected disabled>Ano</option>
+                        <option value="2023" >2023</option>
+                        <option value="2024" >2024</option>
+                        <option value="2025" >2025</option>
+                        <option value="2026" >2026</option>
+                        <option value="2027" >2027</option>
+                        <option value="2028" >2028</option>
+                        <option value="2029" >2029</option>
+                        <option value="2030" >2030</option>
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <span>cvv</span>
+                    <input type="text" maxlength="3" class="cvv-input" required>
+                </div>
+            </div>
+            <input type="submit" value="enviar" class="submit-btn">
+        </div>
+        <div id="res-success"></div>
+        
+    </div>
+</body>
+</html>
