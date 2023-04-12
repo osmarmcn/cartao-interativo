@@ -149,6 +149,11 @@
 }
 
 /* cartao - frente*/
+.image{
+    margin-top: 25px;
+    margin-left: 30px;
+
+}
 
 .number-box{
     display: flex;
